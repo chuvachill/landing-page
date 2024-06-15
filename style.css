@@ -3,21 +3,23 @@
 }
 
 body {
-    margin: 0 20%;
+    margin: 0;
+    padding: 0;
 }
 
-.header {
+.hero {
+    padding: 0 15%;
     background-color: #1f2937;
 }
 
-.header .top {
+.hero .top {
     display: flex;
     padding: 16px 0;
 
     justify-content: space-between;
 }
 
-.header .bottom {
+.hero .bottom {
     display: flex;
     padding: 64px 0;
     gap: 32px;
