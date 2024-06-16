@@ -12,8 +12,6 @@ p {
     margin: 0;
 }
 
-
-
 /* colors and font styles */
 body {
     font-family: "Roboto", sans-serif;
@@ -28,6 +26,10 @@ body {
 
 #signup {
     font-weight: 600;
+}
+
+.hero #signup {
+    border-style: none;
 }
 
 #signup,
@@ -54,7 +56,8 @@ body {
 }
 
 .content .item {
-    border: 4px solid #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
 }
 
 .quote {
@@ -76,6 +79,7 @@ body {
 #signup,
 .action-block {
     background-color: #3882F6;
+    border-radius: 8px;
 }
 
 .action-block .heading {
@@ -97,6 +101,10 @@ body {
 }
 
 /* size */
+#signup {
+    padding: 10px 32px;
+}
+
 .hero .bottom {
     padding: 124px 0;
     gap: 32px;
@@ -132,6 +140,9 @@ body {
 }
 
 /* content */
+#signup {
+    max-width: max-content;
+}
 
 .card {
     width: 150px;
@@ -160,10 +171,6 @@ body {
     gap: 10px;
 }
 
-#signup {
-    max-width: 100px;
-}
-
 ul.links {
     margin: 0;
     padding: 0px;
@@ -174,7 +181,6 @@ ul.links {
 
 .container {
     display: flex;
-    border: 1px dotted red;
 }
 
 .container.column {
