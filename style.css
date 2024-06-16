@@ -47,6 +47,17 @@ p {
     color: #1f2937;
 }
 
+/* text alignment */
+.content .heading {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+
+
 .hero .top {
     display: flex;
 
@@ -88,7 +99,7 @@ ul.links {
 
 .placeholder {
     width: inherit;
-    height: 150px;
+    height: 140px;
     background-color: grey;
 }
 
@@ -109,7 +120,7 @@ ul.links {
 }
 
 .card {
-    width: 150px;
+    width: 140px;
     align-items: center;
 }
 
