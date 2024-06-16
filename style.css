@@ -63,9 +63,11 @@ body {
     color: #1f2937;
 }
 
-.content .item {
-    border: 3px solid #3882F6;
+.item img {
+    border: 5px solid #3882F6;
     border-radius: 8px;
+    width: inherit;
+    height: inherit;
 }
 
 .quote {
@@ -127,6 +129,10 @@ ul.links {
     padding: 10px 20%;
 }
 
+.bottom .placeholder {
+    min-width: 50%;
+}
+
 .content {
     padding: 32px 20% 124px;
 }
@@ -165,7 +171,7 @@ ul.links {
 
 .bottom .container {
     flex-basis: 50%;
-    gap: 10px;
+    gap: 16px;
 }
 
 .bottom .placeholder {
@@ -217,5 +223,5 @@ ul.links {
 
 ul.links {
     list-style: none;
-    gap: 16px;
+    gap: 32px;
 }
