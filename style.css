@@ -19,8 +19,31 @@ h1 {
 
 .hero,
 .footer {
-    padding: 24px 15%;
+    padding: 24px 20%;
+}
+
+/* colors and font styles */
+.hero,
+.footer {
+    color: #e5e7eb;
     background-color: #1f2937;
+    font-size: 18px;
+}
+
+#signup,
+.hero .logo,
+.hero .heading,
+.action-block {
+    color: #f9faf8
+}
+
+.hero .logo {
+    font-size: 24px;
+}
+
+.hero .heading {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .hero .top {
